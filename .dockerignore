@@ -1,7 +1,6 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
 .venv/
 venv/
 
@@ -12,6 +11,7 @@ venv/
 # Git
 .git/
 .gitignore
+.github/
 
 # Environment / secrets
 .env
@@ -23,3 +23,7 @@ venv/
 # Docker itself
 Dockerfile
 .dockerignore
+
+# AWS policy files
+apprunner-trust-policy.json
+ecs-trust-policy.json
